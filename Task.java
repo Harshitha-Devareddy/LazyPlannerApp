@@ -5,7 +5,7 @@ public class Task implements Comparable<Task> {
     private String name;
     private LocalDateTime deadline;
     private int importance;
-    private int duration; // in hours
+    private int duration; 
 
     public Task(String name, String deadlineStr, int importance, int duration) {
         this.name = name;
